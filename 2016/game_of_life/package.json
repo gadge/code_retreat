@@ -1,0 +1,11 @@
+{
+  "name": "run_js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jasmine JASMINE_CONFIG_PATH=spec/config/jasmine.json"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.2",
+    "underscore": "^1.8.3"
+  }
+}
